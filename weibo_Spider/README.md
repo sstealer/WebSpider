@@ -1,23 +1,27 @@
 # Python3微博爬虫[requests+pyquery+selenium+mongodb]
 
+
+Table of Contents
+=================
+
+   * [Python3微博爬虫[requests pyquery selenium mongodb]](#python3微博爬虫requestspyqueryseleniummongodb)
+      * [主要技术](#主要技术)
+      * [站点分析](#站点分析)
+      * [程序流程图](#程序流程图)
+      * [编程实现](#编程实现)
+         * [数据库选择](#数据库选择)
+         * [代理IP测试](#代理ip测试)
+         * [模拟登录](#模拟登录)
+         * [获取用户详细信息](#获取用户详细信息)
+         * [获取用户全部微博](#获取用户全部微博)
+      * [运行结果](#运行结果)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
+
 大数据时代，数据的获取对是研究的基础，而获取海量的数据自然不能通过人工获取，爬虫因运而生。微博作为新时代国内火爆的社交媒体平台，拥有大量用户行为和商户数据，学会通过爬虫获取所需数据将是将来研究学者的必备技能。由于微博的反爬取措施较为完善，PC端的微博API限制太多，不易于爬虫获取数据，本次选择爬取手机端的彩版微博，手机端含有所需的所有数据，并且对爬虫较为友好。
 
 程序在Ubuntu18.04.5下编写，Python版本为3.6.7，通过设置请求头信息和使用代理IP和代理账号，对爬虫进行包装，使用selenium驱动Chrome完成页面的获取，通过pyquery解析页面获取数据，并且存入非关系型数据MongoDB。
-
-- [Python3微博爬虫[requests+pyquery+selenium+mongodb]](#python3-----requests-pyquery-selenium-mongodb-)
-  * [主要技术](#----)
-  * [站点分析](#----)
-  * [程序流程图](#-----)
-  * [编程实现](#----)
-    + [数据库选择](#-----)
-    + [代理IP测试](#--ip--)
-    + [模拟登录](#----)
-    + [获取用户详细信息](#--------)
-    + [获取用户全部微博](#--------)
-  * [运行结果](#----)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 ## 主要技术
 
