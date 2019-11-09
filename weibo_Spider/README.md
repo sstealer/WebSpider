@@ -32,7 +32,7 @@
 
 7. 需要代理IP和代理账号，IP代理最好不要使用免费的，例如西刺，免费代理多数挂的快，不稳定而且速度慢，速度慢就无法再超时设置的规定时间内加载出网页，导致出现异常，程序终止
 
-   微博账号购买：http://www.xiaohao.fun/ 或者 http://www.xiaohao.live/ ，1毛5一个号<img src="https://raw.githubusercontent.com/yeqer/Picgo/master/img/TIM图片20190908091144.png" style="zoom:30%;" />
+   微博账号购买：http://www.xiaohao.fun/ 或者 http://www.xiaohao.live/ ，1毛5一个号<img src="https://raw.githubusercontent.com/yeqer/Picgo/master/img/TIM图片20190908091144.png" width="60" height="60"/>
 
    IP代理商：http://h.zhimaruanjian.com/getapi/#obtain_ip
 
